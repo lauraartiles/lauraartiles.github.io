@@ -1,3 +1,9 @@
-name: Flex
+# Site settings
+title: CS371P Fall 2015 Laura Artiles
+email: lauraartiles@utexas.edu
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: laura_artiles_
+github_username:  lauraartiles
 markdown: redcarpet
 higlighter: true
