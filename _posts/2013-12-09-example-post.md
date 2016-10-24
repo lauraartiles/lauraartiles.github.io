@@ -6,7 +6,7 @@ date:   2016-10-24 12:00:00
 categories: posts
 ---
 
-## Introducing Flex, a Jekyll theme
+## Let's get started.
 
 Flex is a minimalist, responsive theme based on the website, [The Development](http://thedevelopment.co).
 
