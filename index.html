@@ -1,8 +1,239 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>L.ARTILES</title>
 
-{% assign page = site.posts.first %}
-{% assign content = page.content %}
-{% include post.html %}
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="assets/css/main.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/animate-custom.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<div id="navbar-main"> 
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#home">Laura Artiles</a> </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="#about" class="smoothScroll"> About</a></li>
+          <li> <a href="#skills" class="smoothScroll"> Skills</a></li>
+          <li> <a href="#portfolio" class="smoothScroll"> Projects</a></li>
+          <li> <a href="#community" class="smoothScroll"> Leadership</a></li>
+          <li> <a href="blog/"> Blog</a></li>
+          <li> <a href="#footerwrap" class="smoothScroll"> Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse --> 
+    </div>
+  </div>
+</div>
+
+<!-- ==== HEADERWRAP ==== -->
+<div id="headerwrap" name="home">
+  <header class="clearfix">
+    <h1>Hi, I'm Laura Artiles.</h1>
+    <a href="#about" class="smoothScroll btn btn-lg">Get to know me.</a> </header>
+</div>
+<!-- /headerwrap --> 
+
+<!-- ==== ABOUT ==== -->
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+      <h2 class="centered">ABOUT ME</h2>
+      <hr>
+      <div class="col-md-6"> <img class="img-responsive" src="assets/img/about.jpg" align=""> </div>
+      <div class="col-md-6">
+      <h3>Welcome!</h3>
+        <p>My name is Laura Artiles and I am currently a senior at the University of Texas at Austin double majoring in Computer Science and Economics. Growing up with two engineers as parents, my mind was always very driven towards math, science, and technology. Throughout middle school and high school I also began to develop an interest in the business world. Upon arriving to college, I wasn't sure what I wanted to do yet, but I decided to take a programming course. Unsuprisingly, I fell in love with it! My programming assignments were always the ones I wanted to do first when I had a long list of things to do and I was eager to learn more. I declared Computer Science as my major and eventually added Economics to fulfil my lingering interest of the business world. Now, in my final year of college, I am beginning to focus more on exploring my personal interests within the Computer Science field, such as web programming, both front and back end, iOS development and more.</p>
+      </div>
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+<!-- container --> 
+
+<!-- ==== SKILLS ==== -->
+<div id="skills" name="skills">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">SKILLS</h2>
+      <hr>
+      <div class="col-lg-2 callout"> 
+      <img src="assets/img/java.png" atl="">
+        <h3>Java</h3>
+        <p>Proficient</p>
+      </div>
+      <div class="col-lg-8 callout"> <img src="assets/img/python.png" atl="">
+        <h3>Python</h3>
+        <p>Proficient</p>
+      </div>
+      <div class="col-lg-2 callout"> <img src="assets/img/prog-c.png" atl="">
+        <h3>C</h3>
+        <p>Proficient</p>
+      </div>
+      <br/>
+      <div class="col-lg-4 callout"> <img src="assets/img/html.png" atl="">
+        <h3>HTML/CSS</h3>
+        <p>Intermediate</p>
+      </div>
+      <div class="col-lg-4 callout"> <img src="assets/img/prog-django.png" atl="">
+        <h3>Django</h3>
+        <p>Beginner</p>
+      </div>
+      <div class="col-lg-4 callout"> <img src="assets/img/prog-rails.png" atl="">
+        <h3>Ruby on Rails</h3>
+        <p>Beginner</p>
+      </div>
+
+    </div>
+    <!-- row --> 
+  </div>
+</div>
+<!-- container --> 
+
+<!-- ==== PORTFOLIO ==== -->
+<div id="portfolio" name="portfolio">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">PROJECTS</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2 centered">
+        <p class="large">Below are some projects I've made in my spare time and ones that I've collaborated on in my classes.</p>
+      </div>
+    </div>
+
+
+    <!-- /row -->
+    <div class="container">
+      <div class="row"> 
+        
+        <!-- PORTFOLIO IMAGE 1 -->
+        <div class="col-md-4">
+          <div class="grid mask">
+            <center>
+            <figure> <img class="img-responsive" src="assets/img/portfolio/Kendra.png" alt="">
+              <figcaption>
+                <h5>Employee Platform</h5>
+                <a data-toggle="modal" href="#myModal" class="btn btn-default">More Details</a> </figcaption>
+              <!-- /figcaption --> 
+            </figure></center>
+            <!-- /figure --> 
+          </div>
+          <!-- /grid-mask --> 
+        </div>
+      
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="KendraScottLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Kendra Scott Employee Platform</h4>
+              </div>
+              <div class="modal-body">
+                <p>While working as a part-time sales associate at Kendra Scott in Austin, I decided to develop and employee platform to faciliate some of the procedures, specifically requesting days off. As of right now, I'm still working on this, but it's ALMOST finished! The site will allow employees to request days off and see the status of their request (approved, denied, pending). Managers will be in charge of approving requests. It also consolidates all of the employee contact information into one place! This is my first personal project, so I'm excited to do more soon!</p>
+                <p><b><a href="#">Visit Site (Coming Soon)</a></b></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!-- /.modal-content --> 
+          </div>
+          <!-- /.modal-dialog --> 
+        </div>
+    </div>
+    <!-- /row --> 
+  </div>
+</div>
+<!-- /container --> 
+
+<!-- ==== COMMUNITY INVOLVEMENT ==== -->
+<div id="community" name="community">
+  <div class="container">
+    <div class="row centered">
+    	<h2 class="centered">COMMUNITY SERVICE/LEADERSHIP</h2>
+      	<hr>
+
+      	<div class="col-lg-6 centered"> <a href="http://www.texas4000.org/rider/2014/sierra/laura-artiles/"><img class="img img-circle" src="assets/img/alaska.png" height="220px" width="220px" alt=""></a>
+        	<h4><b><a href="http://www.texas4000.org/rider/2014/sierra/laura-artiles/">Texas 4000 for Cancer</b></h4><a/>
+        	<p>Student and Non-profit Organization.</p>
+		</div>
+     	<div class="col-lg-6 centered"> <a href="http://www.texasspirits.com/"><img class="img img-circle" src="assets/img/spirits.png" height="220px" width="220px" alt=""></a>
+        	<h4><b><a href="http://www.texasspirits.com/">Texas Spirits 
+          </b></h4></a>
+        	<p>Honorary service, social, and spirit organization.</p>
+    	</div>
+  	</div>
+  <!-- row --> 
+</div>
+<!-- container --> 
+</div>
+
+
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+        <ul class="list-inline social-buttons">
+          <div class="col-md-2">
+          	<li><a href="https://www.facebook.com/profile.php?id=1295495202"><i class="fa fa-facebook"></i></a> </li>
+          </div>
+          
+          <div class="col-md-2">
+          	<li><a href="mailto:lauraartiles@utexas.edu"><i class="fa fa-envelope"></i></a> </li>
+          </div>
+          <div class="col-md-2">
+          	<li><a href="https://twitter.com/laura_artiles_"><i class="fa fa-twitter"></i></a> </li>
+          </div>
+          <div class="col-md-2">
+          	<li><a href="https://github.com/lauraartiles"><i class="fa fa-github"></i></a> </li>
+          </div>
+          
+          <div class="col-md-2">
+          	<li><a href="https://www.linkedin.com/in/lauraartiles"><i class="fa fa-linkedin"></i></a> </li>
+          </div>
+          <div class="col-md-2">
+          	<li><a href="https://instagram.com/laura_artiles_/"><i class="fa fa-instagram"></i></a> </li>
+          </div>
+        </ul>
+      </br>
+        <!-- <div class="copyright" text-align="center"> <span class="copyright">Copyright &copy; 2015 Laura Artiles. </span> </div> -->
+      
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="assets/js/retina.js"></script> 
+<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+</body>
+</html>

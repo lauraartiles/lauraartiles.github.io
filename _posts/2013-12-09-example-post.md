@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Example post
-cover: cover.jpg
-date:   2013-12-09 12:00:00
+title: Diving into iOS Development
+cover: cover.png
+date:   2016-10-24 12:00:00
 categories: posts
 ---
 
