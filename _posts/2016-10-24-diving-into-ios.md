@@ -65,3 +65,9 @@ NSHispter: [http://nshipster.com/](http://nshipster.com/)
 Ray Wenderlich: [http://raywenderlich.com/](http://raywenderlich.com/)
 
 iOS Architecture Patterns by Bohdan Orlov via [https://medium.com/ios-os-x-development/](https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52#.d7pqc7rjr)
+
+## Meetups, lectures, etc.
+
+You don't want the first time you're talking to an iOS developer to be when you're sitting down for an interview. Talks, meetups, and other local events are a perfect low stress way to learn more about a field by talking to developers about their experiences as well as get any questions answered you may have. I've started to attend iOSoho and Women in iOS Meetups in New York and they have been really great. It's nice to hear about how other people decided to get into iOS development and projects they have worked on. There's literally a Meetup group for everything!
+
+Meetup: [https://www.meetup.com/](https://www.meetup.com/)
