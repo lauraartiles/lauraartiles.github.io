@@ -12,15 +12,15 @@ categories: posts
 
 I've been curious about iOS development for quite some time. While I've played around with Swift here and there, I feel like I've lacked structure and discipline. I've decided to change that starting *now*! Each week I'll be posting tips, what I have learned, and any obstacles I encoutered.
 
-In the spirit of being structured, I've decided to start by laying out the resources I'll be using.
-
 When I first wanted to learn iOS development I started to look at courses and bootcamps in my area. What I quickly realized was that most of them cost more than a year of my college tuition. As someone with a Computer Science background, I didn't feel like I was starting completely from scratch so these options were probably not the best investment (although I have heard great things about them especially for those lacking a background in technology). Still, I wanted some sort of method to my madness so I began to look for **free** resources online. 
+
+In the spirit of being structured, I've decided to start by laying out the resources I'll be using.
 
 ## Stanford iOS Course
 
 I sorted through and did the first lesson of many tutorials online before deciding on pursuing this course. Most of the tutorials or courses online are geared to those who have never programmed before and can therefore feel a little slow if you have experience in programming. Paul Hegarty (the Stanford iOS professor) doesn't just brush the surface of Swift. From the get-go he dives into the language and it's clear he is interested in teaching his students the tools to become top notch iOS developers. 
 
-**Developing iOS 9 Apps with Swift: [iTunes U](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)**
+Developing iOS 9 Apps with Swift: [iTunes U](https://itunes.apple.com/us/course/developing-ios-9-apps-swift/id1104579961)
 
 **Course Outline:**
 
