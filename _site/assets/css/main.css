@@ -211,7 +211,7 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/Leaves.jpeg) no-repeat center top;
+	background: url(../img/background.jpeg) no-repeat center top;
 	margin-top: -50px;
 	padding-top: 120px;
 	text-align: center;
@@ -230,8 +230,8 @@ a:before, a:after {
 	padding-bottom: 100px;
 }
 #headerwrap h1 {
-	color: #ffffff;
-	font-size: 90px;
+	color: #161616;
+	font-size: 98px;
 	font-weight: 400;
 	text-align: center;
 	letter-spacing: 3px;
