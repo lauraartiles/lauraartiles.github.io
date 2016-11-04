@@ -18,7 +18,15 @@
   <div class="colophon">
     <p>
       <span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
-      <span id="social">Find me on <a href="">Twitter</a>!</span>
+      <!-- <span id="social">Find me on <a href="">Twitter</a>!</span> -->
+  {% if page.previous.url %}
+    <span id="prev-post"><a href="{{page.previous.url}}">&laquo; Previous post</a></span>
+  {% endif %}
+  {% if page.next.url %}
+    <span id="next-post"><a href="{{page.next.url}}">Next post &raquo;</a></span>
+  {% endif %}
+
+       <!-- <a href="/ios/2016/10/24/diving-into-ios.html">Previous post {{ page.previous.title }}</a></span> -->
     </p>
   </div>
 </div>

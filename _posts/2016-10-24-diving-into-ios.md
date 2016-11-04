@@ -54,6 +54,8 @@ My brother is actually an iOS developer so I asked him for some tips on getting 
 
 [The Swift Programming Language (Swift 3)](https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)
 
+And many[more](https://developer.apple.com/swift/resources/)!
+
 
 
 ## Blogs

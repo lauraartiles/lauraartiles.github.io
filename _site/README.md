@@ -1,18 +1,8 @@
-flex
+Personal Website
 ====
-
-Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
+Blog built using flex. Flex is a responsive, flexible, [Jekyll](http://jekyllrb.com) theme.
 
 View a demo website [here](http://the-development.github.io/flex/).
-
-Installation
-===
-To use this theme, you would do so like any other Jekyll setup:
-
-1. Install Jekyll: `gem install jekyll`
-2. Fork this repository to your machine
-3. `cd` to the forked directory and run `jekyll serve --watch`
-4. Celebrate and dance.
 
 License
 ===
