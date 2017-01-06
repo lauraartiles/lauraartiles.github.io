@@ -265,7 +265,7 @@ a:before, a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-#community H4 {
+#community h4 {
 	padding-top: 10px;
 }
 #community p.large {
@@ -276,6 +276,11 @@ a:before, a:after {
 	background: #fff;
 	padding: 60px 0;
 }
+#portfolio h4 {
+	padding-top: 10px;
+	color: #555;
+}
+
 #portfolio .btn-default {
 	border: 0;
 }
